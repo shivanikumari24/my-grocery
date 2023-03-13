@@ -1,0 +1,152 @@
+ body, html{ margin: 0; padding: 0;}
+
+span{
+    color: navy;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+header{background-color: white; 
+    height: 12vh; 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.nav{
+    list-style-type: none;
+    float: left;
+    margin: 0px;
+}
+button i:hover{
+    background-color: green;
+    color: white;
+}
+
+.nav a:hover{
+    color: green;
+}
+.nav li{
+    display: inline-block; 
+    justify-content: center; 
+    padding: 5vh 1vw; 
+}
+a{
+    text-decoration: none;
+    color: #6d6875;
+}
+button{height: 5vh; background-color: #EEEEEE; border: 0px; border-radius: 3px; }
+
+button i{
+       float: right;
+       align-items: center;
+       color: navy;
+       font-size:4vh;
+       text-align: center;
+       width: 3vw;  
+}
+.photo{height: 65vh;
+    background-image: url(img/supermarket-banner-concept-with-ingredients.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.text{ 
+    position: relative;
+    top: 4rem;
+}
+.text h1{color: navy;
+    margin: 0rem 0rem 0rem 20rem;
+    
+    display: flex;
+    justify-content: center;
+}
+.text h3{  margin: 0rem 0rem 0rem 20rem;
+    position: relative;
+    color: #081c15;
+    display: flex;
+    justify-content: center;
+    top: 3rem;
+}
+.btn{color: navy;
+    margin: 5rem 0rem 0rem 45rem;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-image: repeating-linear-gradient(white, #A4BE7B);
+}
+
+.footer{
+    height: 25rem;
+    background-color: white;
+    display: flex; 
+    justify-content: space-evenly;
+    
+}
+.box1{  height: 300px;
+        background-color: white;
+        color:  grey;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: large;
+        margin-top: 2rem;
+}
+.box1 h3{
+    color: navy;
+}
+p{
+  margin-top: 20px;
+}
+
+.box1 input{
+    height: 25px;
+    width: 14rem;
+    margin-top: 0rem;
+    padding: 5px;
+    background-color: #f4f3f6;
+    border: none;
+    border-radius: 3px;
+}
+.abc{color: navy;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 10px 30px 30px 30px;
+    border: 1.5px solid green;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.abc:hover{
+    background-image: repeating-linear-gradient(white, #A4BE7B);
+    color: navy;
+}
+p i{
+    color: #FC7300;;
+}
+#paragraph{
+    margin-top: 2rem;
+}
+#hvr{
+    position:relative;
+    
+}
+ .hvr:hover {
+    position: absolute;
+    translate: 20px 0px;
+    
+}
+
+@keyframes mymove{
+    from{left:0px; top:0px;}
+  to{left:40px; top:0px;}
+  
+}
+
+
