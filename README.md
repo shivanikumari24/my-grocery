@@ -13,4 +13,4 @@ Work involved: HTML & CSS for static design.
 
 
 It is my personal project .I applied my learnings to make this website responsive.
-Any feedbacks are welcome on the project
+Any feedbacks are welcome 
