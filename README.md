@@ -1,4 +1,4 @@
-# my-grocery
+# My-grocery
 
 My-Grocery is an eCommerce based web application for my Web Programming project.
 
